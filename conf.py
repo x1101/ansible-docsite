@@ -20,7 +20,7 @@ BLOG_AUTHOR = "Ansible Community, et al"  # (translatable)
 BLOG_TITLE = "Ansible documentation"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://ansible-community-website.readthedocs.io/"
+SITE_URL = "https://ansible.readthedocs.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://ansible.community/"
@@ -1361,7 +1361,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["render_galleries", "render_taxonomies",]
+DISABLED_PLUGINS = ["render_galleries", "render_taxonomies", "sitemap", "robots"]
 
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.

@@ -15,4 +15,5 @@ build:
     - nikola build
     - mkdir -p _readthedocs/html/
     - cp -r output/* _readthedocs/html/
-    - rm _readthedocs/html/robots.txt
+    - cp robots.txt _readthedocs/html/
+    - cp ansible-sitemap.xml _readthedocs/html/

@@ -1,7 +1,7 @@
 ---
 description: ''
-slug: ansible-prior-versions
+slug: archive
 title: Ansible community documentation archive
 type: text
-template: ansible-prior-versions.tmpl
+template: archive.tmpl
 ---

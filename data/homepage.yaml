@@ -165,7 +165,7 @@ collections_page:
 # Start community docs archive page
 archive_page:
   title: Ansible community documentation archive
-  intro: Archive page for the Ansible community documentation that provides older versions of content.
+  intro: Archive page where you can find older versions of content.
 # Element labels
 labels:
   button_group: Button group that links to Ansible community documentation.

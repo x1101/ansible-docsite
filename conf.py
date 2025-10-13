@@ -629,7 +629,7 @@ ARCHIVE_FILENAME = "archive.html"
 # rel_path: a relative URL to the current page/post (default)
 # full_path: a URL with the full path from the root
 # absolute: a complete URL (that includes the SITE_URL)
-# URL_TYPE = 'rel_path'
+URL_TYPE = 'absolute'
 
 # Extension for RSS feed files
 # RSS_EXTENSION = ".xml"
@@ -1449,3 +1449,6 @@ SASS_COMPILER = 'pysassc'
 # A list of options to pass to the Sass compiler.
 # Final command is: SASS_COMPILER SASS_OPTIONS file.s(a|c)ss
 SASS_OPTIONS = []
+
+# Create 404 error page
+CREATE_HTTP_ERROR_PAGES = [404]

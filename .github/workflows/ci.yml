@@ -1,4 +1,4 @@
-name: Community website CI
+name: Community docsite CI
 
 on:
   pull_request:

@@ -17,7 +17,7 @@ ansible-community-package:
       link: "https://pypi.org/project/ansible/"
       text: PyPI page for Ansible community package
     docs:
-      link: "https://ansible.readthedocs.io/projects/ansible-build-data/"
+      link: "https://docs.ansible.com/projects/ansible-build-data/"
       text: Documentation of package build process
     github:
       link: "https://github.com/ansible-community/ansible-build-data"
@@ -32,7 +32,7 @@ antsibull-changelog:
   alt: Ansible community logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/antsibull-changelog/"
+      link: "https://docs.ansible.com/projects/antsibull-changelog/"
       text: Documentation
     github:
       link: "https://github.com/ansible-community/antsibull-changelog"
@@ -44,7 +44,7 @@ antsibull-docs:
   alt: Ansible community logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/antsibull-docs/"
+      link: "https://docs.ansible.com/projects/antsibull-docs/"
       text: Documentation
     github:
       link: "https://github.com/ansible-community/antsibull-docs"
@@ -62,7 +62,7 @@ antsibull-nox:
   alt: Ansible community logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/antsibull-nox/"
+      link: "https://docs.ansible.com/projects/antsibull-nox/"
       text: Documentation
     github:
       link: "https://github.com/ansible-community/antsibull-nox"
@@ -74,7 +74,7 @@ ade:
   alt: Ansible Development Environment project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/dev-environment/"
+      link: "https://docs.ansible.com/projects/dev-environment/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-development-environment"
@@ -86,7 +86,7 @@ adt:
   alt: Ansible Development Tools project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/dev-tools/"
+      link: "https://docs.ansible.com/projects/dev-tools/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-dev-tools"
@@ -110,7 +110,7 @@ awx:
   alt: AWX project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/awx/"
+      link: "https://docs.ansible.com/projects/awx/"
       text: Documentation
     github:
       link: "https://github.com/ansible/awx"
@@ -122,7 +122,7 @@ awx_operator:
   alt: AWX Operator project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/awx-operator/"
+      link: "https://docs.ansible.com/projects/awx-operator/"
       text: Documentation
     github:
       link: "https://github.com/ansible/awx-operator"
@@ -134,7 +134,7 @@ builder:
   alt: Ansible Builder project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/builder/"
+      link: "https://docs.ansible.com/projects/builder/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-builder"
@@ -164,7 +164,7 @@ compat:
   alt: Ansible Compat project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/compat/"
+      link: "https://docs.ansible.com/projects/compat/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-compat"
@@ -191,7 +191,7 @@ creator:
   alt: Ansible Creator project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/creator/"
+      link: "https://docs.ansible.com/projects/creator/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-creator"
@@ -239,7 +239,7 @@ galaxy_ng:
       link: "https://galaxy.ansible.com/search"
       text: Search Galaxy
     docs:
-      link: "https://ansible.readthedocs.io/projects/galaxy-ng/"
+      link: "https://docs.ansible.com/projects/galaxy-ng/"
       text: Documentation
     github:
       link: "https://github.com/ansible/galaxy_ng/"
@@ -251,7 +251,7 @@ lint:
   alt: Ansible Lint project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/lint/"
+      link: "https://docs.ansible.com/projects/lint/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-lint"
@@ -263,7 +263,7 @@ molecule:
   alt: Molecule project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/molecule/"
+      link: "https://docs.ansible.com/projects/molecule/"
       text: Documentation
     github:
       link: "https://github.com/ansible/molecule/"
@@ -275,7 +275,7 @@ navigator:
   alt: Ansible Navigator project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/navigator/"
+      link: "https://docs.ansible.com/projects/navigator/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-navigator"
@@ -287,7 +287,7 @@ pytest:
   alt: Ansible Pytest project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/pytest-ansible/"
+      link: "https://docs.ansible.com/projects/pytest-ansible/"
       text: Documentation
     github:
       link: "https://github.com/ansible/pytest-ansible"
@@ -299,7 +299,7 @@ rulebook:
   alt: Ansible Rulebook project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/rulebook/"
+      link: "https://docs.ansible.com/projects/rulebook/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-rulebook"
@@ -311,7 +311,7 @@ runner:
   alt: Ansible Runner project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/runner/"
+      link: "https://docs.ansible.com/projects/runner/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-runner"
@@ -323,7 +323,7 @@ sdk:
   alt: Ansible SDK project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/sdk/"
+      link: "https://docs.ansible.com/projects/sdk/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-sdk"
@@ -335,7 +335,7 @@ sign:
   alt: Ansible Sign project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/sign/"
+      link: "https://docs.ansible.com/projects/sign/"
       text: Documentation
     github:
       link: "https://github.com/ansible/ansible-sign"
@@ -347,7 +347,7 @@ tox:
   alt: Tox Ansible project logo
   resources:
     docs:
-      link: "https://ansible.readthedocs.io/projects/tox-ansible/"
+      link: "https://docs.ansible.com/projects/tox-ansible/"
       text: Documentation
     github:
       link: "https://github.com/ansible/tox-ansible"

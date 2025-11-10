@@ -129,25 +129,25 @@ ecosystem:
     core:
       heading: Ansible Core
       description: The Ansible programming language, automation tooling, and architectural framework.
-      link: https://ansible.readthedocs.io/projects/ansible-core/
+      link: https://docs.ansible.com/projects/ansible-core/
       logo: project-logos/ansible-core.svg
       alt: Ansible Core project logo
     antsibull-nox:
       heading: Antsibull Nox
       description: A nox helper library that simplifies the process of testing Ansible collections through a common interface for various tools.
-      link: https://ansible.readthedocs.io/projects/antsibull-nox/
+      link: https://docs.ansible.com/projects/antsibull-nox/
       logo: project-logos/ansible-community.svg
       alt: Antsibull-nox project logo
     builder:
       heading: Ansible Builder
       description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
-      link: https://ansible.readthedocs.io/projects/builder/
+      link: https://docs.ansible.com/projects/builder/
       logo: project-logos/builder.svg
       alt: Ansible Builder project logo
     devtools:
       heading: Ansible developer tools
       description: An integrated tool kit and framework for creating Ansible automation content, from bootstrapping new projects to setting up ci/cd pipelines.
-      link: https://ansible.readthedocs.io/projects/dev-tools/
+      link: https://docs.ansible.com/projects/dev-tools/
       logo: project-logos/ansible-community.svg
       alt: Ansible DevTools project logo
 # Start ecosystem page

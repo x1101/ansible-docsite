@@ -32,19 +32,19 @@ milestones:
         url: "https://docs.ansible.com/ansible/devel/getting_started_ee/index.html"
       build_ees:
         label: Build execution environments
-        url: "https://ansible.readthedocs.io/projects/builder/en/latest/"
+        url: "https://docs.ansible.com/projects/builder/en/latest/"
   tooling:
     title: Use Ansible tooling
     actions:
       navigator:
         label: Create and test playbooks with Ansible Navigator
-        url: "https://ansible.readthedocs.io/projects/navigator/"
+        url: "https://docs.ansible.com/projects/navigator/"
       lint:
         label: Use Ansible Lint to validate playbooks
-        url: "https://ansible.readthedocs.io/projects/lint/"
+        url: "https://docs.ansible.com/projects/lint/"
       molecule:
         label: Install Molecule to develop and test Ansible roles
-        url: "https://ansible.readthedocs.io/projects/molecule/"
+        url: "https://docs.ansible.com/projects/molecule/"
       vscode:
         label: Use Ansible with OpenVSX compatible editors
         url: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
@@ -65,13 +65,13 @@ milestones:
     actions:
       submit_roles:
         label: Submit roles to an existing collection
-        url: "https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide/#importing-roles"
+        url: "https://docs.ansible.com/projects/galaxy-ng/en/latest/community/userguide/#importing-roles"
       create_collection:
         label: Create a new collection
         url: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html#developing-collections"
       upload_collection:
         label: Upload a collection to Ansible Galaxy
-        url: "https://ansible.readthedocs.io/projects/galaxy-ng/en/latest/community/userguide/#uploading-collections"
+        url: "https://docs.ansible.com/projects/galaxy-ng/en/latest/community/userguide/#uploading-collections"
   awx:
     title: Schedule and run automation jobs
     actions:
@@ -83,4 +83,4 @@ milestones:
         url: "https://github.com/ansible/awx/blob/devel/docs/schedules.md#scheduled-jobs"
       use_ees:
         label: Use execution environments with AWX jobs
-        url: "https://ansible.readthedocs.io/projects/runner/en/latest/execution_environments/"
+        url: "https://docs.ansible.com/projects/runner/en/latest/execution_environments/"

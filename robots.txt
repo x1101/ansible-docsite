@@ -1,5 +1,23 @@
 User-agent: *
-
-Disallow: # Allow everything
+Disallow: /projects/ansible/8/
+Disallow: /projects/ansible/7/
+Disallow: /projects/ansible/6/
+Disallow: /projects/ansible/5/
+Disallow: /projects/ansible/4/
+Disallow: /projects/ansible/3/
+Disallow: /projects/ansible/2.10/
+Disallow: /projects/ansible/2.9/
+Disallow: /projects/ansible/2.8/
+Disallow: /projects/ansible/2.7/
+Disallow: /projects/ansible/2.6/
+Disallow: /projects/ansible/2.5/
+Disallow: /projects/ansible/2.4/
+Disallow: /projects/ansible/2.3/
+Disallow: /projects/ansible/2.8-archive/
+Disallow: /projects/ansible/2.7-archive/
+Disallow: /projects/ansible/2.6-archive/
+Disallow: /projects/ansible/2.5-archive/
+Disallow: /projects/ansible/2.4-archive/
+Disallow: /projects/ansible/2.3-archive/
 
 Sitemap: https://docs.ansible.com/ansible-sitemap.xml

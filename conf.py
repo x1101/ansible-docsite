@@ -1417,7 +1417,7 @@ WARN_ABOUT_TAG_METADATA = False
 # TEMPLATE_FILTERS = {}
 
 # Display a banner with special text to the top of all pages.
-BANNER = True
+BANNER = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.

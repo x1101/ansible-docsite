@@ -1,2 +1,2 @@
 from conf import *
-URL_TYPE = 'rel_path'
+URL_TYPE = 'full_path'

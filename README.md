@@ -15,7 +15,7 @@ Please see [Governance](CONTRIBUTING.md#Governance)
 ## Contacting the maintainers
 
 The Website Working group can be found in [Ansible Website WG](https://matrix.to/#/#website:ansible.com) on Matrix
-or ``#ansible-website`` on IRC. Alternatively, a GitHub issue is also acceptable for asking
+or `#ansible-website` on IRC. Alternatively, a GitHub issue is also acceptable for asking
 questions.
 
 ## Building the website locally
@@ -25,9 +25,9 @@ You can build the website locally if you want to evaluate changes or experiment.
 
 ### Using nox
 
-This project includes a ``nox`` configuration to automate and simplify the build.
+This project includes a `nox` configuration to automate and simplify the build.
 
-Install ``nox``.
+Install `nox`.
 
     # Install nox with pip
     python3 -m pip install nox
@@ -35,13 +35,16 @@ Install ``nox``.
     # Install nox on MacOS
     brew install nox
 
-Run ``nox -s build`` to build the website locally.
-To see other available sessions, run ``nox --list``.
+Run `nox -s build -- --conf=dev.conf.py` to build the website locally.
+To see other available sessions, run `nox --list`.
+
+> By default the `conf.py` file uses absolute urls for style sheets and other resources.
+> If you do not specify the `dev.conf.py` file the resulting output uses resources hosted on `docs.ansible.com`, which means you cannot view local changes to `.sass` files and so on.
 
 ### Running nikola directly
 
 The website is built with nikola.
-If you prefer using ``nikola`` commands directly, instead of using ``nox``, you can.
+If you prefer using `nikola` commands directly, instead of using `nox`, you can.
 
 #### Setting things up
 
@@ -61,7 +64,7 @@ We recommend that you use a Python virtual environment.
 The Ansible community website is built with [Nikola](https://getnikola.com/).
 
     # Build the site with Nikola.
-    nikola build
+    nikola build --conf=dev.conf.py
 
     # View the site in your browser.
     nikola serve -b
@@ -71,7 +74,7 @@ The Ansible community website is built with [Nikola](https://getnikola.com/).
 
 > Check the [Nikola handbook](https://getnikola.com/handbook.html) for more details.
 
-> Nikola configuration for the website is in ``conf.py``.
+> Nikola configuration for the website is in `conf.py`.
 
 ## Site accessibility
 
@@ -168,7 +171,7 @@ If you modify the templates you should lint and format prior to commit.
     # Format templates.
     nox -s format
 
-Default configuration for the linter and formatter is in the ``[tool.djlint]`` section of ``pyproject.toml``.
+Default configuration for the linter and formatter is in the `[tool.djlint]` section of `pyproject.toml`.
 For more information about configuration options, see:
 
 - [Linter](https://www.djlint.com/docs/linter/)

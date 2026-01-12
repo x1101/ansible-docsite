@@ -1,6 +1,6 @@
 from conf import *
 URL_TYPE = 'rel_path'
 
-# Update GLOBAL_CONTEXT["BANNER"] to True
+# Override to display the global banner
 # GLOBAL_CONTEXT.update({ "BANNER": True, })
 

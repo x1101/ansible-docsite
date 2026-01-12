@@ -1416,6 +1416,10 @@ WARN_ABOUT_TAG_METADATA = False
 # those.
 # TEMPLATE_FILTERS = {}
 
+# Display a banner at the top of all pages.
+# Banner text is defined in data/top-banner.yaml.
+BANNER = False
+
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 try:
@@ -1431,6 +1435,8 @@ try:
     "community": load_data('data/community.yaml'),
     "collections": load_data('data/collections.yaml'),
     "archive": load_data('data/archive.yaml'),
+    "banner": load_data('data/top-banner.yaml'),
+    "BANNER": BANNER,
     }
 
 except ImportError:

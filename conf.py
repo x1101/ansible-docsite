@@ -1416,7 +1416,8 @@ WARN_ABOUT_TAG_METADATA = False
 # those.
 # TEMPLATE_FILTERS = {}
 
-# Display a banner with special text to the top of all pages.
+# Display a banner at the top of all pages.
+# Banner text is defined in data/top-banner.yaml.
 BANNER = False
 
 # Put in global_context things you want available on all your templates.
